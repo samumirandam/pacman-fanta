@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10fr 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  background-color: #000;
+  display: inline-block;
+}
